@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Loading Data
-const noteData = require('../Develop/db/db.json');
+const noteData = require('./db/db.json');
 const { Console } = require('console');
 
 // Data parsing
